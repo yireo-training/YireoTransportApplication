@@ -1,0 +1,23 @@
+{
+    "name": "jisse/test",
+    "autoload": {
+        "psr-4": {
+            "Yireo\\":"src/",
+            "YireoTests\\":"tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jisse Reitsma",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "require": {
+        "symfony/console": "^6.2",
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.3"
+    }
+}
